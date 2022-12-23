@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Open Sans', sans-serif;
+}
+:root{
+    --colorPrimario: rgb(147, 106, 250);
+    --colorFondo: rgb(245, 249, 252);
+    ---colorHeader: rgb(255, 255, 255);
+}
+body{
+    background-color: var(--colorFondo);
+    display:flex;
+    justify-content: center;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5rem;
+    padding: 1.8rem;
+    align-items: center;
+    width: 78.5%;
+    background-color: var(---colorHeader);
+}
+.search{
+  
+
+}
